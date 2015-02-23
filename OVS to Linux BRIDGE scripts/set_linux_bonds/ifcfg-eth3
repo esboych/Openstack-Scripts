@@ -1,0 +1,10 @@
+DEVICE=eth3
+BOOTPROTO=none
+ONBOOT=yes
+USERCTL=no
+MASTER=bond1
+SLAVE=yes
+MTU=9000
+##IPADDR=172.20.2.4
+##NETMASK=255.255.255.0
+ETHTOOL_OPTS="-K ${DEVICE} tso on gso on gro on lro off"

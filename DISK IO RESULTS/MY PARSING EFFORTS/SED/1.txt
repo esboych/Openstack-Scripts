@@ -1,0 +1,192 @@
+read read 1
+  read : io=423306KB, bw=3527.6KB/s, iops=7055 , runt=120001msec
+read read 2
+  read : io=426898KB, bw=3557.5KB/s, iops=7114 , runt=120001msec
+read read 4
+  read : io=569389KB, bw=4744.9KB/s, iops=9489 , runt=120001msec
+read read 8
+  read : io=1107.2MB, bw=9447.4KB/s, iops=18894 , runt=120001msec
+write write 1
+  write: io=152588KB, bw=1271.6KB/s, iops=2543 , runt=120002msec
+write write 2
+  write: io=192678KB, bw=1605.7KB/s, iops=3211 , runt=120001msec
+write write 4
+  write: io=275122KB, bw=2292.7KB/s, iops=4585 , runt=120001msec
+write write 8
+  write: io=608951KB, bw=5074.6KB/s, iops=10149 , runt=120001msec
+randread randread 1
+  read : io=7922.0KB, bw=67598 B/s, iops=132 , runt=120005msec
+randread randread 2
+  read : io=7954.6KB, bw=67867 B/s, iops=132 , runt=120019msec
+randread randread 4
+  read : io=7965.6KB, bw=67959 B/s, iops=132 , runt=120023msec
+randread randread 8
+  read : io=8411.0KB, bw=71737 B/s, iops=140 , runt=120060msec
+randwrite randwrite 1
+  write: io=13714KB, bw=117020 B/s, iops=228 , runt=120001msec
+randwrite randwrite 2
+  write: io=13928KB, bw=118844 B/s, iops=232 , runt=120004msec
+randwrite randwrite 4
+  write: io=13902KB, bw=118611 B/s, iops=231 , runt=120015msec
+randwrite randwrite 8
+  write: io=13953KB, bw=119020 B/s, iops=232 , runt=120041msec
+read read 1
+  read : io=843557KB, bw=7029.6KB/s, iops=7029 , runt=120001msec
+read read 2
+  read : io=848207KB, bw=7068.4KB/s, iops=7068 , runt=120001msec
+read read 4
+  read : io=1106.7MB, bw=9442.9KB/s, iops=9442 , runt=120001msec
+read read 8
+  read : io=2189.1MB, bw=18688KB/s, iops=18687 , runt=120001msec
+write write 1
+  write: io=375941KB, bw=3132.9KB/s, iops=3132 , runt=120001msec
+write write 2
+  write: io=440189KB, bw=3668.3KB/s, iops=3668 , runt=120001msec
+write write 4
+  write: io=608273KB, bw=5068.1KB/s, iops=5068 , runt=120001msec
+write write 8
+  write: io=1225.8MB, bw=10460KB/s, iops=10459 , runt=120001msec
+randread randread 1
+  read : io=15822KB, bw=135006 B/s, iops=131 , runt=120007msec
+randread randread 2
+  read : io=15875KB, bw=135447 B/s, iops=132 , runt=120017msec
+randread randread 4
+  read : io=15880KB, bw=135470 B/s, iops=132 , runt=120034msec
+randread randread 8
+  read : io=16794KB, bw=143261 B/s, iops=139 , runt=120040msec
+randwrite randwrite 1
+  write: io=27669KB, bw=236102 B/s, iops=230 , runt=120003msec
+randwrite randwrite 2
+  write: io=27747KB, bw=236766 B/s, iops=231 , runt=120004msec
+randwrite randwrite 4
+  write: io=27732KB, bw=236618 B/s, iops=231 , runt=120014msec
+randwrite randwrite 8
+  write: io=27773KB, bw=236940 B/s, iops=231 , runt=120028msec
+read read 1
+  read : io=1635.4MB, bw=13955KB/s, iops=6977 , runt=120001msec
+read read 2
+  read : io=1640.8MB, bw=14001KB/s, iops=7000 , runt=120001msec
+read read 4
+  read : io=2178.1MB, bw=18594KB/s, iops=9296 , runt=120001msec
+read read 8
+  read : io=4226.7MB, bw=36067KB/s, iops=18033 , runt=120001msec
+write write 1
+  write: io=793300KB, bw=6610.8KB/s, iops=3305 , runt=120001msec
+write write 2
+  write: io=938162KB, bw=7817.1KB/s, iops=3908 , runt=120001msec
+write write 4
+  write: io=1231.8MB, bw=10511KB/s, iops=5255 , runt=120002msec
+write write 8
+  write: io=2471.4MB, bw=21089KB/s, iops=10544 , runt=120001msec
+randread randread 1
+  read : io=31534KB, bw=269087 B/s, iops=131 , runt=120001msec
+randread randread 2
+  read : io=31694KB, bw=270428 B/s, iops=132 , runt=120012msec
+randread randread 4
+  read : io=31698KB, bw=270417 B/s, iops=132 , runt=120032msec
+randread randread 8
+  read : io=33466KB, bw=285459 B/s, iops=139 , runt=120049msec
+randwrite randwrite 1
+  write: io=55148KB, bw=470592 B/s, iops=229 , runt=120001msec
+randwrite randwrite 2
+  write: io=55268KB, bw=471588 B/s, iops=230 , runt=120008msec
+randwrite randwrite 4
+  write: io=55408KB, bw=472755 B/s, iops=230 , runt=120015msec
+randwrite randwrite 8
+  write: io=55206KB, bw=470953 B/s, iops=229 , runt=120035msec
+read read 1
+  read : io=3206.3MB, bw=27360KB/s, iops=6839 , runt=120001msec
+read read 2
+  read : io=3220.6MB, bw=27482KB/s, iops=6870 , runt=120001msec
+read read 4
+  read : io=4219.7MB, bw=36007KB/s, iops=9001 , runt=120001msec
+read read 8
+  read : io=7942.2MB, bw=67772KB/s, iops=16943 , runt=120001msec
+write write 1
+  write: io=1644.2MB, bw=14030KB/s, iops=3507 , runt=120001msec
+write write 2
+  write: io=1834.1MB, bw=15658KB/s, iops=3914 , runt=120001msec
+write write 4
+  write: io=2467.1MB, bw=21060KB/s, iops=5264 , runt=120001msec
+write write 8
+  write: io=4773.8MB, bw=40735KB/s, iops=10183 , runt=120001msec
+randread randread 1
+  read : io=62604KB, bw=534207 B/s, iops=130 , runt=120003msec
+randread randread 2
+  read : io=62936KB, bw=536991 B/s, iops=131 , runt=120014msec
+randread randread 4
+  read : io=62816KB, bw=535837 B/s, iops=130 , runt=120043msec
+randread randread 8
+  read : io=66708KB, bw=568890 B/s, iops=138 , runt=120074msec
+randwrite randwrite 1
+  write: io=108932KB, bw=929537 B/s, iops=226 , runt=120002msec
+randwrite randwrite 2
+  write: io=109528KB, bw=934607 B/s, iops=228 , runt=120004msec
+randwrite randwrite 4
+  write: io=109932KB, bw=937984 B/s, iops=229 , runt=120013msec
+randwrite randwrite 8
+  write: io=109376KB, bw=933046 B/s, iops=227 , runt=120038msec
+read read 1
+  read : io=16325MB, bw=139307KB/s, iops=2176 , runt=120001msec
+read read 2
+  read : io=16302MB, bw=139110KB/s, iops=2173 , runt=120002msec
+read read 4
+  read : io=16328MB, bw=139326KB/s, iops=2176 , runt=120002msec
+read read 8
+  read : io=16294MB, bw=139042KB/s, iops=2172 , runt=120002msec
+write write 1
+  write: io=15943MB, bw=136048KB/s, iops=2125 , runt=120001msec
+write write 2
+  write: io=16084MB, bw=137251KB/s, iops=2144 , runt=120001msec
+write write 4
+  write: io=16094MB, bw=137335KB/s, iops=2145 , runt=120002msec
+write write 8
+  write: io=6034.4MB, bw=51492KB/s, iops=804 , runt=120002msec
+randread randread 1
+  read : io=952576KB, bw=7937.9KB/s, iops=124 , runt=120004msec
+randread randread 2
+  read : io=957440KB, bw=7978.3KB/s, iops=124 , runt=120006msec
+randread randread 4
+  read : io=958144KB, bw=7982.7KB/s, iops=124 , runt=120029msec
+randread randread 8
+  read : io=986.52MB, bw=8414.4KB/s, iops=131 , runt=120054msec
+randwrite randwrite 1
+  write: io=1496.7MB, bw=12771KB/s, iops=199 , runt=120004msec
+randwrite randwrite 2
+  write: io=1476.9MB, bw=12601KB/s, iops=196 , runt=120015msec
+randwrite randwrite 4
+  write: io=1485.7MB, bw=12676KB/s, iops=198 , runt=120016msec
+randwrite randwrite 8
+  write: io=1473.4MB, bw=12568KB/s, iops=196 , runt=120041msec
+read read 1
+  read : io=16305MB, bw=139131KB/s, iops=271 , runt=120004msec
+read read 2
+  read : io=16281MB, bw=138925KB/s, iops=271 , runt=120005msec
+read read 4
+  read : io=16089MB, bw=137277KB/s, iops=268 , runt=120014msec
+read read 8
+  read : io=16080MB, bw=137185KB/s, iops=267 , runt=120027msec
+write write 1
+  write: io=16166MB, bw=137945KB/s, iops=269 , runt=120004msec
+write write 2
+  write: io=16070MB, bw=137122KB/s, iops=267 , runt=120004msec
+write write 4
+  write: io=15833MB, bw=135095KB/s, iops=263 , runt=120012msec
+write write 8
+  write: io=15839MB, bw=135124KB/s, iops=263 , runt=120028msec
+randread randread 1
+  read : io=5308.6MB, bw=45294KB/s, iops=88 , runt=120013msec
+randread randread 2
+  read : io=5344.0MB, bw=45595KB/s, iops=89 , runt=120019msec
+randread randread 4
+  read : io=5336.0MB, bw=45518KB/s, iops=88 , runt=120041msec
+randread randread 8
+  read : io=5551.0MB, bw=47334KB/s, iops=92 , runt=120087msec
+randwrite randwrite 1
+  write: io=5722.6MB, bw=48795KB/s, iops=95 , runt=120092msec
+randwrite randwrite 2
+  write: io=5276.6MB, bw=44988KB/s, iops=87 , runt=120102msec
+randwrite randwrite 4
+  write: io=5257.6MB, bw=44834KB/s, iops=87 , runt=120079msec
+randwrite randwrite 8
+  write: io=5283.0MB, bw=45025KB/s, iops=87 , runt=120150msec

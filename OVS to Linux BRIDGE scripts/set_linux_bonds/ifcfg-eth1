@@ -1,0 +1,8 @@
+DEVICE=eth1
+BOOTPROTO=none
+ONBOOT=yes
+USERCTL=no
+MASTER=bond1
+SLAVE=yes
+MTU=9000
+ETHTOOL_OPTS="-K ${DEVICE} tso on gso on gro on lro off"

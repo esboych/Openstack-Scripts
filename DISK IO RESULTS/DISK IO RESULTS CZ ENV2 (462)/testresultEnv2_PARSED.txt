@@ -1,0 +1,336 @@
+read read 1
+  read 98872 KB 9886.3 KB/s 19772 10001
+read read 2
+  read 264719 KB 26469 KB/s 52938 10001
+read read 4
+  read 358686 KB 35865 KB/s 71729 10001
+read read 8
+  read 359773 KB 35974 KB/s 71947 10001
+write write 1
+  write 145983 KB 14597 KB/s 29193 10001
+write write 2
+  write 242286 KB 24226 KB/s 48452 10001
+write write 4
+  write 354240 KB 35420 KB/s 70840 10001
+write write 8
+  write 354827 KB 35479 KB/s 70958 10001
+randread randread 1
+  read 739840 B 73961 B/s 144 10003
+randread randread 2
+  read 899072 B 89745 B/s 175 10018
+randread randread 4
+  read 1131.0 KB 115444 B/s 225 10032
+randread randread 8
+  read 1376.6 KB 140532 B/s 274 10030
+randwrite randwrite 1
+  write 1695.6 KB 171070 B/s 334 10149
+randwrite randwrite 2
+  write 1807.0 KB 177749 B/s 347 10410
+randwrite randwrite 4
+  write 1820.0 KB 180431 B/s 352 10329
+randwrite randwrite 8
+  write 1821.0 KB 178423 B/s 348 10451
+rw rw 1
+  read 9202.0 KB 942096 B/s 1840 10002
+  write 9239.0 KB 945884 B/s 1847 10002
+rw rw 2
+  read 11829 KB 1182.5 KB/s 2364 10004
+  write 11831 KB 1182.6 KB/s 2365 10004
+rw rw 4
+  read 14890 KB 1488.9 KB/s 2977 10001
+  write 14911 KB 1490.1 KB/s 2981 10001
+rw rw 8
+  read 16383 KB 1638.2 KB/s 3276 10001
+  write 16352 KB 1634.2 KB/s 3269 10001
+randrw randrw 1
+  read 486912 B 48666 B/s 95 10005
+  write 462848 B 46261 B/s 90 10005
+randrw randrw 2
+  read 603136 B 60241 B/s 117 10012
+  write 559616 B 55894 B/s 109 10012
+randrw randrw 4
+  read 735744 B 70581 B/s 137 10424
+  write 687104 B 65915 B/s 128 10424
+randrw randrw 8
+  read 848896 B 81335 B/s 158 10437
+  write 791552 B 75840 B/s 148 10437
+read read 1
+  read 301116 KB 30109 KB/s 30108 10001
+read read 2
+  read 525336 KB 52528 KB/s 52528 10001
+read read 4
+  read 699268 KB 69920 KB/s 69919 10001
+read read 8
+  read 707974 KB 70790 KB/s 70790 10001
+write write 1
+  write 280824 KB 28080 KB/s 28079 10001
+write write 2
+  write 497390 KB 49734 KB/s 49734 10001
+write write 4
+  write 673194 KB 67313 KB/s 67312 10001
+write write 8
+  write 682681 KB 68261 KB/s 68261 10001
+randread randread 1
+  read 1414.0 KB 144764 B/s 141 10002
+randread randread 2
+  read 1793.0 KB 183383 B/s 179 10012
+randread randread 4
+  read 2303.0 KB 235309 B/s 229 10022
+randread randread 8
+  read 2855.0 KB 291361 B/s 284 10034
+randwrite randwrite 1
+  write 3607.0 KB 369319 B/s 360 10001
+randwrite randwrite 2
+  write 3673.0 KB 359574 B/s 351 10460
+randwrite randwrite 4
+  write 3639.0 KB 359719 B/s 351 10359
+randwrite randwrite 8
+  write 3582.0 KB 351775 B/s 343 10427
+rw rw 1
+  read 16456 KB 1644.2 KB/s 1644 10009
+  write 16530 KB 1651.6 KB/s 1651 10009
+rw rw 2
+  read 18203 KB 1817.3 KB/s 1817 10018
+  write 18310 KB 1827.8 KB/s 1827 10018
+rw rw 4
+  read 24188 KB 2416.2 KB/s 2416 10011
+  write 24171 KB 2414.5 KB/s 2414 10011
+rw rw 8
+  read 27667 KB 2766.5 KB/s 2766 10001
+  write 27698 KB 2769.6 KB/s 2769 10001
+randrw randrw 1
+  read 978.0 KB 100067 B/s 97 10008
+  write 951296 B 95053 B/s 92 10008
+randrw randrw 2
+  read 1205.0 KB 118146 B/s 115 10444
+  write 1108.0 KB 108635 B/s 106 10444
+randrw randrw 4
+  read 1390.0 KB 141896 B/s 138 10031
+  write 1300.0 KB 132708 B/s 129 10031
+randrw randrw 8
+  read 1632.0 KB 166650 B/s 162 10028
+  write 1516.0 KB 154804 B/s 151 10028
+read read 1
+  read 572980 KB 57292 KB/s 28646 10001
+read read 2
+  read 1006.1 MB 103100 KB/s 51550 10001
+read read 4
+  read 1260.5 MB 129059 KB/s 64529 10001
+read read 8
+  read 1264.3 MB 129445 KB/s 64722 10001
+write write 1
+  write 529508 KB 52946 KB/s 26472 10001
+write write 2
+  write 988960 KB 98886 KB/s 49443 10001
+write write 4
+  write 1184.2 MB 121246 KB/s 60622 10001
+write write 8
+  write 1201.5 MB 123012 KB/s 61505 10001
+randread randread 1
+  read 2866.0 KB 293361 B/s 143 10004
+randread randread 2
+  read 3502.0 KB 358210 B/s 174 10011
+randread randread 4
+  read 4642.0 KB 474581 B/s 231 10016
+randread randread 8
+  read 5682.0 KB 578999 B/s 282 10049
+randwrite randwrite 1
+  write 7002.0 KB 691155 B/s 337 10374
+randwrite randwrite 2
+  write 7214.0 KB 708530 B/s 345 10426
+randwrite randwrite 4
+  write 7064.0 KB 695599 B/s 339 10399
+randwrite randwrite 8
+  write 7268.0 KB 714519 B/s 348 10416
+rw rw 1
+  read 30262 KB 3024.4 KB/s 1512 10006
+  write 30270 KB 3025.2 KB/s 1512 10006
+rw rw 2
+  read 28014 KB 2801.2 KB/s 1400 10001
+  write 28034 KB 2803.2 KB/s 1401 10001
+rw rw 4
+  read 36838 KB 3683.5 KB/s 1841 10001
+  write 36982 KB 3697.9 KB/s 1848 10001
+rw rw 8
+  read 43020 KB 4301.6 KB/s 2150 10001
+  write 42980 KB 4297.6 KB/s 2148 10001
+randrw randrw 1
+  read 1912.0 KB 188475 B/s 92 10388
+  write 1824.0 KB 179801 B/s 87 10388
+randrw randrw 2
+  read 2374.0 KB 232696 B/s 113 10447
+  write 2200.0 KB 215640 B/s 105 10447
+randrw randrw 4
+  read 2790.0 KB 274734 B/s 134 10399
+  write 2608.0 KB 256812 B/s 125 10399
+randrw randrw 8
+  read 3212.0 KB 327337 B/s 159 10048
+  write 2986.0 KB 304305 B/s 148 10048
+read read 1
+  read 982.18 MB 100564 KB/s 25141 10001
+read read 2
+  read 1727.9 MB 176908 KB/s 44227 10001
+read read 4
+  read 1762.2 MB 180427 KB/s 45106 10001
+read read 8
+  read 1753.4 MB 179493 KB/s 44873 10001
+write write 1
+  write 943752 KB 94366 KB/s 23591 10001
+write write 2
+  write 1617.3 MB 165590 KB/s 41397 10001
+write write 4
+  write 1241.3 MB 126935 KB/s 31733 10013
+write write 8
+  write 1148.5 MB 117589 KB/s 29397 10001
+randread randread 1
+  read 5820.0 KB 595789 B/s 145 10003
+randread randread 2
+  read 7268.0 KB 743202 B/s 181 10014
+randread randread 4
+  read 9396.0 KB 959559 B/s 234 10027
+randread randread 8
+  read 11336 KB 1126.7 KB/s 281 10062
+randwrite randwrite 1
+  write 13976 KB 1366.2 KB/s 341 10230
+randwrite randwrite 2
+  write 14420 KB 1385.7 KB/s 346 10407
+randwrite randwrite 4
+  write 14404 KB 1438.3 KB/s 359 10015
+randwrite randwrite 8
+  write 14048 KB 1347.9 KB/s 336 10423
+rw rw 1
+  read 42536 KB 4251.1 KB/s 1062 10004
+  write 42208 KB 4219.2 KB/s 1054 10004
+rw rw 2
+  read 40112 KB 4010.9 KB/s 1002 10001
+  write 39904 KB 3990.1 KB/s 997 10001
+rw rw 4
+  read 48288 KB 4828.4 KB/s 1207 10001
+  write 48164 KB 4815.1 KB/s 1203 10001
+rw rw 8
+  read 62104 KB 6191.3 KB/s 1547 10031
+  write 62212 KB 6201.1 KB/s 1550 10031
+randrw randrw 1
+  read 3740.0 KB 367574 B/s 89 10419
+  write 3544.0 KB 348311 B/s 85 10419
+randrw randrw 2
+  read 4712.0 KB 462882 B/s 113 10424
+  write 4372.0 KB 429482 B/s 104 10424
+randrw randrw 4
+  read 5732.0 KB 585902 B/s 143 10018
+  write 5324.0 KB 544198 B/s 132 10018
+randrw randrw 8
+  read 6520.0 KB 637555 B/s 155 10472
+  write 6060.0 KB 592574 B/s 144 10472
+read read 1
+  read 1762.5 MB 180456 KB/s 2819 10001
+read read 2
+  read 1761.4 MB 180347 KB/s 2817 10001
+read read 4
+  read 1755.3 MB 179702 KB/s 2807 10002
+read read 8
+  read 1761.9 MB 180326 KB/s 2817 10005
+write write 1
+  write 1720.4 MB 176149 KB/s 2752 10001
+write write 2
+  write 1723.4 MB 176456 KB/s 2757 10001
+write write 4
+  write 1745.5 MB 178697 KB/s 2792 10002
+write write 8
+  write 1736.4 MB 177751 KB/s 2777 10003
+randread randread 1
+  read 86080 KB 8604.6 KB/s 134 10004
+randread randread 2
+  read 103744 KB 10368 KB/s 162 10006
+randread randread 4
+  read 137792 KB 13742 KB/s 214 10027
+randread randread 8
+  read 165568 KB 16430 KB/s 256 10077
+randwrite randwrite 1
+  write 195072 KB 18520 KB/s 289 10533
+randwrite randwrite 2
+  write 200128 KB 20005 KB/s 312 10004
+randwrite randwrite 4
+  write 198400 KB 19818 KB/s 309 10011
+randwrite randwrite 8
+  write 204480 KB 19478 KB/s 304 10498
+rw rw 1
+  read 118720 KB 11742 KB/s 183 10111
+  write 113728 KB 11248 KB/s 175 10111
+rw rw 2
+  read 117568 KB 11561 KB/s 180 10169
+  write 112512 KB 11064 KB/s 172 10169
+rw rw 4
+  read 170112 KB 16625 KB/s 259 10232
+  write 165824 KB 16206 KB/s 253 10232
+rw rw 8
+  read 236096 KB 23595 KB/s 368 10006
+  write 232128 KB 23199 KB/s 362 10006
+randrw randrw 1
+  read 56640 KB 5662.4 KB/s 88 10003
+  write 52800 KB 5278.5 KB/s 82 10003
+randrw randrw 2
+  read 70016 KB 6641.7 KB/s 103 10542
+  write 64896 KB 6155.1 KB/s 96 10542
+randrw randrw 4
+  read 84224 KB 7984.8 KB/s 124 10549
+  write 78016 KB 7395.6 KB/s 115 10549
+randrw randrw 8
+  read 94656 KB 8980.7 KB/s 140 10540
+  write 88192 KB 8367.4 KB/s 130 10540
+read read 1
+  read 1761.6 MB 180360 KB/s 352 10001
+read read 2
+  read 1745.6 MB 178668 KB/s 348 10004
+read read 4
+  read 1761.0 MB 180164 KB/s 351 10009
+read read 8
+  read 1764.0 MB 180237 KB/s 352 10022
+write write 1
+  write 1744.0 MB 178568 KB/s 348 10001
+write write 2
+  write 1746.6 MB 178752 KB/s 349 10005
+write write 4
+  write 1749.6 MB 178970 KB/s 349 10010
+write write 8
+  write 1722.6 MB 174206 KB/s 340 10125
+randread randread 1
+  read 517632 KB 51732 KB/s 101 10006
+randread randread 2
+  read 558592 KB 55753 KB/s 108 10019
+randread randread 4
+  read 647680 KB 64561 KB/s 126 10032
+randread randread 8
+  read 735232 KB 73099 KB/s 142 10058
+randwrite randwrite 1
+  write 918016 KB 85620 KB/s 167 10722
+randwrite randwrite 2
+  write 904704 KB 86294 KB/s 168 10484
+randwrite randwrite 4
+  write 916480 KB 85254 KB/s 166 10750
+randwrite randwrite 8
+  write 917504 KB 85302 KB/s 166 10756
+rw rw 1
+  read 442880 KB 43989 KB/s 85 10068
+  write 412672 KB 40988 KB/s 80 10068
+rw rw 2
+  read 541696 KB 51906 KB/s 101 10436
+  write 506368 KB 48521 KB/s 94 10436
+rw rw 4
+  read 515072 KB 51471 KB/s 100 10007
+  write 488448 KB 48811 KB/s 95 10007
+rw rw 8
+  read 549376 KB 52476 KB/s 102 10469
+  write 512000 KB 48906 KB/s 95 10469
+randrw randrw 1
+  read 333312 KB 31350 KB/s 61 10632
+  write 291328 KB 27401 KB/s 53 10632
+randrw randrw 2
+  read 358400 KB 35765 KB/s 69 10021
+  write 320512 KB 31984 KB/s 62 10021
+randrw randrw 4
+  read 420352 KB 39267 KB/s 76 10705
+  write 383488 KB 35823 KB/s 69 10705
+randrw randrw 8
+  read 430592 KB 42502 KB/s 83 10131
+  write 399360 KB 39420 KB/s 76 10131

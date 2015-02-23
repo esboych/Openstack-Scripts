@@ -1,0 +1,8 @@
+DEVICE=bond1
+BOOTPROTO=none
+ONBOOT=yes
+USERCTL=no
+#MACADDR=00:1b:21:b9:8b:15
+BONDING_OPTS="mode=802.3ad lacp_rate=0 miimon=100 xmit_hash_policy=layer3+4"
+MTU=9000
+ETHTOOL_OPTS="-K ${DEVICE} tso off gso off gro on lro off"

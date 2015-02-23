@@ -1,0 +1,453 @@
+--- 
+storage: 
+  images_ceph: true
+  metadata: 
+    label: Storage
+    weight: 60
+  osd_pool_size: "3"
+  objects_ceph: true
+  volumes_ceph: true
+  pg_num: 2048
+  volumes_lvm: false
+  ephemeral_ceph: true
+online: true
+storage_network_range: 172.20.2.0/24
+quantum: true
+mp: 
+- point: "1"
+  weight: "1"
+- point: "2"
+  weight: "2"
+access: 
+  password: aeh5Teiwei5Iagaiph9s
+  metadata: 
+    label: Access
+    weight: 10
+  email: tech@prozeta.cz
+  tenant: admin
+  user: admin
+metadata: 
+  label: Common
+  weight: 30
+swift: 
+  user_password: bKgdLnHZ
+test_vm_image: 
+  container_format: bare
+  img_path: /opt/vm/cirros-x86_64-disk.img
+  img_name: TestVM
+  min_ram: 64
+  public: "true"
+  glance_properties: "--property murano_image_info='{\"title\": \"Murano Demo\", \"type\": \"cirros.demo\"}'"
+  disk_format: qcow2
+  os_name: cirros
+kernel_params: 
+  metadata: 
+    label: Kernel parameters
+    weight: 40
+  kernel: console=ttyS0,9600 console=tty0 biosdevname=0 crashkernel=none rootdelay=90 nomodeset
+management_vip: 172.20.1.2
+glance: 
+  user_password: BOcTpfA5
+  image_cache_max_size: "0"
+  db_password: RU9eXvgD
+nova: 
+  user_password: BXiwItrt
+  state_path: /var/lib/nova
+  db_password: GriFKzPG
+vlan_splinters: 
+  metadata: 
+    enabled: true
+    label: VLAN Splinters
+    toggleable: true
+    weight: 50
+  vswitch: kernel_lt
+quantum_settings: 
+  metadata: 
+    metadata_proxy_shared_secret: bZ59pynw
+  L3: 
+    use_namespaces: true
+  L2: 
+    phys_nets: 
+      physnet1: 
+        vlan_range: 
+        bridge: br-ex
+    base_mac: fa:20:3e:00:00:00
+    tunnel_id_ranges: 2:65535
+    segmentation_type: gre
+  predefined_networks: 
+    net04: 
+      tenant: admin
+      L2: 
+        router_ext: false
+        network_type: gre
+        physnet: 
+        segment_id: 
+      L3: 
+        gateway: 192.168.111.1
+        subnet: 192.168.111.0/24
+        enable_dhcp: true
+        floating: 
+        nameservers: 
+        - 8.8.4.4
+        - 8.8.8.8
+      shared: false
+    net04_ext: 
+      tenant: admin
+      L2: 
+        router_ext: true
+        network_type: flat
+        physnet: physnet1
+        segment_id: 
+      L3: 
+        gateway: 95.173.210.129
+        subnet: 95.173.210.128/26
+        enable_dhcp: false
+        floating: 95.173.210.150:95.173.210.185
+        nameservers: []
+
+      shared: false
+  keystone: 
+    admin_password: 1sJXmi6i
+  database: 
+    passwd: lKzL3Z39
+master_ip: 172.20.0.10
+openstack_version: 2014.1.1-5.0.1
+rabbit: 
+  password: vW4aJFl2
+start_guests_on_host_boot: true
+mysql: 
+  root_password: G8iWY6dF
+deployment_mode: ha_compact
+ceilometer: 
+  enabled: false
+  user_password: xBeWHV1X
+  metering_secret: 8unbVerV
+  db_password: cdGtZ8iC
+vcenter: 
+  metadata: 
+    label: vCenter
+    weight: 20
+  cluster: ""
+  vc_user: ""
+  host_ip: ""
+  use_vcenter: true
+  vc_password: ""
+auto_assign_floating_ip: false
+priority: 700
+deployment_id: 2
+debug: false
+auth_key: ""
+base_syslog: 
+  syslog_server: 172.20.0.10
+  syslog_port: "514"
+fqdn: node-11.mgmt.lmc.prz
+last_controller: node-14
+sahara: 
+  enabled: false
+  user_password: MeqPefv8
+  db_password: LgXd2XaA
+keystone: 
+  admin_token: R6NGyQVQ
+  db_password: fG48lJ5E
+public_vip: 95.173.210.130
+compute_scheduler_driver: nova.scheduler.filter_scheduler.FilterScheduler
+murano: 
+  enabled: false
+  rabbit_password: UNzM7C5m
+  user_password: ua7NO2HW
+  db_password: xYJcKOR2
+nova_quota: false
+heat: 
+  enabled: true
+  rabbit_password: HWMy3MRm
+  user_password: ziNk8pec
+  db_password: S9SsWYpv
+status: discover
+role: ceph-osd
+cinder: 
+  user_password: F9cWMX5l
+  db_password: iXOFCqCG
+management_network_range: 172.20.1.0/24
+uid: "11"
+nodes: 
+- name: node-9
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "9"
+  internal_address: 172.20.1.3
+  fqdn: node-9.mgmt.lmc.prz
+  storage_address: 172.20.2.2
+  public_address: 95.173.210.131
+  role: primary-controller
+  storage_netmask: 255.255.255.0
+  uid: "9"
+- name: node-10
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "10"
+  internal_address: 172.20.1.4
+  fqdn: node-10.mgmt.lmc.prz
+  storage_address: 172.20.2.3
+  public_address: 95.173.210.132
+  role: controller
+  storage_netmask: 255.255.255.0
+  uid: "10"
+- name: node-11
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "11"
+  internal_address: 172.20.1.5
+  fqdn: node-11.mgmt.lmc.prz
+  storage_address: 172.20.2.4
+  public_address: 95.173.210.133
+  role: ceph-osd
+  storage_netmask: 255.255.255.0
+  uid: "11"
+- name: node-11
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "11"
+  internal_address: 172.20.1.5
+  fqdn: node-11.mgmt.lmc.prz
+  storage_address: 172.20.2.4
+  public_address: 95.173.210.133
+  role: compute
+  storage_netmask: 255.255.255.0
+  uid: "11"
+- name: node-12
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "12"
+  internal_address: 172.20.1.6
+  fqdn: node-12.mgmt.lmc.prz
+  storage_address: 172.20.2.5
+  public_address: 95.173.210.134
+  role: ceph-osd
+  storage_netmask: 255.255.255.0
+  uid: "12"
+- name: node-12
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "12"
+  internal_address: 172.20.1.6
+  fqdn: node-12.mgmt.lmc.prz
+  storage_address: 172.20.2.5
+  public_address: 95.173.210.134
+  role: compute
+  storage_netmask: 255.255.255.0
+  uid: "12"
+- name: node-13
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "13"
+  internal_address: 172.20.1.7
+  fqdn: node-13.mgmt.lmc.prz
+  storage_address: 172.20.2.6
+  public_address: 95.173.210.135
+  role: ceph-osd
+  storage_netmask: 255.255.255.0
+  uid: "13"
+- name: node-13
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "13"
+  internal_address: 172.20.1.7
+  fqdn: node-13.mgmt.lmc.prz
+  storage_address: 172.20.2.6
+  public_address: 95.173.210.135
+  role: compute
+  storage_netmask: 255.255.255.0
+  uid: "13"
+- name: node-14
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "14"
+  internal_address: 172.20.1.8
+  fqdn: node-14.mgmt.lmc.prz
+  storage_address: 172.20.2.7
+  public_address: 95.173.210.136
+  role: controller
+  storage_netmask: 255.255.255.0
+  uid: "14"
+- name: node-15
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "15"
+  internal_address: 172.20.1.9
+  fqdn: node-15.mgmt.lmc.prz
+  storage_address: 172.20.2.8
+  public_address: 95.173.210.137
+  role: ceph-osd
+  storage_netmask: 255.255.255.0
+  uid: "15"
+- name: node-15
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "15"
+  internal_address: 172.20.1.9
+  fqdn: node-15.mgmt.lmc.prz
+  storage_address: 172.20.2.8
+  public_address: 95.173.210.137
+  role: compute
+  storage_netmask: 255.255.255.0
+  uid: "15"
+- name: node-16
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "16"
+  internal_address: 172.20.1.10
+  fqdn: node-16.mgmt.lmc.prz
+  storage_address: 172.20.2.9
+  public_address: 95.173.210.138
+  role: ceph-osd
+  storage_netmask: 255.255.255.0
+  uid: "16"
+- name: node-16
+  public_netmask: 255.255.255.192
+  internal_netmask: 255.255.255.0
+  swift_zone: "16"
+  internal_address: 172.20.1.10
+  fqdn: node-16.mgmt.lmc.prz
+  storage_address: 172.20.2.9
+  public_address: 95.173.210.138
+  role: compute
+  storage_netmask: 255.255.255.0
+  uid: "16"
+network_scheme: 
+  endpoints: 
+    br-ex: 
+      IP: 
+      - 95.173.210.133/26
+      gateway: 95.173.210.129
+    br-fw-admin: 
+      IP: 
+      - 172.20.0.13/24
+    br-storage: 
+      IP: 
+      - 172.20.2.4/24
+    br-mgmt: 
+      IP: 
+      - 172.20.1.5/24
+  version: "1.0"
+  transformations: 
+  - name: br-eth0
+    action: add-br
+  - name: eth0
+    action: add-port
+    bridge: br-eth0
+  - name: br-eth1
+    action: add-br
+  - name: eth1
+    action: add-port
+    bridge: br-eth1
+  - name: br-eth2
+    action: add-br
+  - name: eth2
+    action: add-port
+    bridge: br-eth2
+  - name: br-eth3
+    action: add-br
+  - name: eth3
+    action: add-port
+    bridge: br-eth3
+  - name: br-ovs-bond0
+    action: add-br
+  - properties: 
+    - lacp=active
+    - bond_mode=balance-tcp
+    name: ovs-bond0
+    action: add-bond
+    interfaces: 
+    - eth6
+    - eth4
+    bridge: br-ovs-bond0
+  - name: br-ovs-bond1
+    action: add-br
+  - properties: 
+    - lacp=active
+    - bond_mode=balance-tcp
+    name: ovs-bond1
+    action: add-bond
+    interfaces: 
+    - eth7
+    - eth5
+    bridge: br-ovs-bond1
+  - name: br-ex
+    action: add-br
+  - name: br-mgmt
+    action: add-br
+  - name: br-storage
+    action: add-br
+  - name: br-fw-admin
+    action: add-br
+  - bridges: 
+    - br-ovs-bond1
+    - br-storage
+    action: add-patch
+    tags: 
+    - 577
+    - 0
+  - bridges: 
+    - br-ovs-bond0
+    - br-ex
+    action: add-patch
+    tags: 
+    - 578
+    - 0
+  - bridges: 
+    - br-ovs-bond0
+    - br-mgmt
+    action: add-patch
+    tags: 
+    - 576
+    - 0
+  - bridges: 
+    - br-eth0
+    - br-fw-admin
+    action: add-patch
+    trunks: 
+    - 0
+  interfaces: 
+    eth7: 
+      L2: 
+        vlan_splinters: "off"
+    eth6: 
+      L2: 
+        vlan_splinters: "off"
+    eth5: 
+      L2: 
+        vlan_splinters: "off"
+    eth4: 
+      L2: 
+        vlan_splinters: "off"
+    eth3: 
+      L2: 
+        vlan_splinters: "off"
+    eth2: 
+      L2: 
+        vlan_splinters: "off"
+    eth1: 
+      L2: 
+        vlan_splinters: "off"
+    eth0: 
+      L2: 
+        vlan_splinters: "off"
+  roles: 
+    storage: br-storage
+    management: br-mgmt
+    ex: br-ex
+    fw-admin: br-fw-admin
+    mesh: br-mgmt
+  provider: ovs
+syslog: 
+  syslog_server: mon.lmc.prz
+  metadata: 
+    label: Syslog
+    weight: 50
+  syslog_transport: udp
+  syslog_port: "514"
+use_cow_images: true
+fuel_version: 5.0.1
+cobbler: 
+  profile: centos-x86_64
+libvirt_type: kvm

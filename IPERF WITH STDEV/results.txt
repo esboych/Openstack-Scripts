@@ -1,0 +1,12 @@
+[SUM]  0.0-0.5 sec  1119 MBytes  187.80 Mbits/sec
+[SUM]  5.0-10.0 sec  11189 MBytes  18773 Mbits/sec
+[SUM] 10.0-15.0 sec  11156 MBytes  18718 Mbits/sec
+[SUM] 15.0-20.0 sec  11142 MBytes  18693 Mbits/sec
+[SUM] 20.0-25.0 sec  11177 MBytes  18752 Mbits/sec
+[SUM] 25.0-30.0 sec  11163 MBytes  18729 Mbits/sec
+[SUM] 30.0-35.0 sec  11166 MBytes  18733 Mbits/sec
+[SUM] 35.0-40.0 sec  11176 MBytes  18750 Mbits/sec
+[SUM] 40.0-45.0 sec  11169 MBytes  18739 Mbits/sec
+[SUM] 45.0-50.0 sec  11165 MBytes  18731 Mbits/sec
+[SUM] 50.0-55.0 sec  11182 MBytes  18761 Mbits/sec
+[SUM]  0.0-60.0 sec  134080 MBytes  18739 Mbits/sec

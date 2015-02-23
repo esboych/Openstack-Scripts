@@ -1,0 +1,528 @@
+read read 1
+  read : io=107037KB, bw=10704KB/s, iops=21407, runt= 10000msec
+    bw (KB  /s):  avg=14576.93, stdev=4859.23
+read read 2
+  read : io=303039KB, bw=30301KB/s, iops=60601, runt= 10001msec
+    bw (KB  /s):  avg=30272.63, stdev=2434.60
+read read 4
+  read : io=355686KB, bw=35565KB/s, iops=71129, runt= 10001msec
+    bw (KB  /s):  avg=35533.05, stdev=1776.11
+read read 8
+  read : io=352493KB, bw=35246KB/s, iops=70491, runt= 10001msec
+    bw (KB  /s):  avg=35196.11, stdev=2214.76
+write write 1
+  write: io=150938KB, bw=15092KB/s, iops=30184, runt= 10001msec
+    bw (KB  /s):  avg=15145.32, stdev=268.89
+write write 2
+  write: io=269168KB, bw=26914KB/s, iops=53828, runt= 10001msec
+    bw (KB  /s):  avg=27051.74, stdev=439.46
+write write 4
+  write: io=352495KB, bw=35246KB/s, iops=70491, runt= 10001msec
+    bw (KB  /s):  avg=35468.63, stdev=899.30
+write write 8
+  write: io=352232KB, bw=35220KB/s, iops=70439, runt= 10001msec
+    bw (KB  /s):  avg=35340.58, stdev=1210.49
+randread randread 1
+  read : io=739840B, bw=73961B/s, iops=144, runt= 10003msec
+    bw (KB  /s):  avg=71.58, stdev= 3.52
+randread randread 2
+  read : io=893952B, bw=89305B/s, iops=174, runt= 10010msec
+    bw (KB  /s):  avg=86.74, stdev= 5.17
+randread randread 4
+  read : io=1141.0KB, bw=116628B/s, iops=227, runt= 10018msec
+    bw (KB  /s):  avg=113.42, stdev= 5.65
+randread randread 8
+  read : io=1380.6KB, bw=140926B/s, iops=275, runt= 10031msec
+    bw (KB  /s):  avg=137.26, stdev= 7.47
+randwrite randwrite 1
+  write: io=1837.0KB, bw=180060B/s, iops=351, runt= 10447msec
+    bw (KB  /s):  avg=185.74, stdev=58.68
+randwrite randwrite 2
+  write: io=1812.6KB, bw=184897B/s, iops=361, runt= 10038msec
+    bw (KB  /s):  avg=192.17, stdev=61.91
+randwrite randwrite 4
+  write: io=1884.6KB, bw=184592B/s, iops=360, runt= 10454msec
+    bw (KB  /s):  avg=190.47, stdev=63.18
+randwrite randwrite 8
+  write: io=1889.6KB, bw=184746B/s, iops=360, runt= 10473msec
+    bw (KB  /s):  avg=191.00, stdev=62.63
+rw rw 1
+  read : io=9133.6KB, bw=934336B/s, iops=1824, runt= 10010msec
+    bw (KB  /s):  avg=913.95, stdev=45.10
+  write: io=9187.6KB, bw=939860B/s, iops=1835, runt= 10010msec
+    bw (KB  /s):  avg=919.58, stdev=43.29
+rw rw 2
+  read : io=11806KB, bw=1180.4KB/s, iops=2360, runt= 10002msec
+    bw (KB  /s):  avg=1179.89, stdev=95.82
+  write: io=11800KB, bw=1179.8KB/s, iops=2359, runt= 10002msec
+    bw (KB  /s):  avg=1179.11, stdev=87.88
+rw rw 4
+  read : io=14535KB, bw=1451.9KB/s, iops=2903, runt= 10011msec
+    bw (KB  /s):  avg=1452.32, stdev=120.18
+  write: io=14556KB, bw=1454.0KB/s, iops=2908, runt= 10011msec
+    bw (KB  /s):  avg=1453.26, stdev=115.57
+rw rw 8
+  read : io=16023KB, bw=1600.6KB/s, iops=3200, runt= 10011msec
+    bw (KB  /s):  avg=1604.00, stdev=68.37
+  write: io=16020KB, bw=1600.3KB/s, iops=3200, runt= 10011msec
+    bw (KB  /s):  avg=1605.21, stdev=78.82
+randrw randrw 1
+  read : io=503808B, bw=48220B/s, iops=94, runt= 10448msec
+    bw (KB  /s):  avg=49.21, stdev=13.05
+  write: io=477184B, bw=45672B/s, iops=89, runt= 10448msec
+    bw (KB  /s):  avg=46.84, stdev=14.56
+randrw randrw 2
+  read : io=621056B, bw=59431B/s, iops=116, runt= 10450msec
+    bw (KB  /s):  avg=60.47, stdev=15.63
+  write: io=567808B, bw=54335B/s, iops=106, runt= 10450msec
+    bw (KB  /s):  avg=56.11, stdev=19.62
+randrw randrw 4
+  read : io=742400B, bw=74091B/s, iops=144, runt= 10020msec
+    bw (KB  /s):  avg=73.22, stdev=25.06
+  write: io=695296B, bw=69390B/s, iops=135, runt= 10020msec
+    bw (KB  /s):  avg=68.17, stdev=24.26
+randrw randrw 8
+  read : io=841216B, bw=83728B/s, iops=163, runt= 10047msec
+    bw (KB  /s):  avg=82.72, stdev=28.25
+  write: io=782336B, bw=77867B/s, iops=152, runt= 10047msec
+    bw (KB  /s):  avg=77.22, stdev=31.64
+read read 1
+  read : io=301517KB, bw=30149KB/s, iops=30148, runt= 10001msec
+    bw (KB  /s):  avg=30077.37, stdev=2089.76
+read read 2
+  read : io=590533KB, bw=59047KB/s, iops=59047, runt= 10001msec
+    bw (KB  /s):  avg=58953.16, stdev=3682.26
+read read 4
+  read : io=716481KB, bw=71641KB/s, iops=71640, runt= 10001msec
+    bw (KB  /s):  avg=71610.32, stdev=2083.02
+read read 8
+  read : io=714446KB, bw=71437KB/s, iops=71437, runt= 10001msec
+    bw (KB  /s):  avg=71402.74, stdev=2262.61
+write write 1
+  write: io=286331KB, bw=28630KB/s, iops=28630, runt= 10001msec
+    bw (KB  /s):  avg=28833.37, stdev=914.47
+write write 2
+  write: io=527027KB, bw=52697KB/s, iops=52697, runt= 10001msec
+    bw (KB  /s):  avg=52667.89, stdev=1354.93
+write write 4
+  write: io=691624KB, bw=69155KB/s, iops=69155, runt= 10001msec
+    bw (KB  /s):  avg=69353.68, stdev=1404.61
+write write 8
+  write: io=693305KB, bw=69324KB/s, iops=69323, runt= 10001msec
+    bw (KB  /s):  avg=69329.90, stdev=1648.01
+randread randread 1
+  read : io=1408.0KB, bw=144092B/s, iops=140, runt= 10006msec
+    bw (KB  /s):  avg=140.32, stdev= 7.31
+randread randread 2
+  read : io=1751.0KB, bw=178962B/s, iops=174, runt= 10019msec
+    bw (KB  /s):  avg=174.89, stdev= 9.06
+randread randread 4
+  read : io=2303.0KB, bw=235309B/s, iops=229, runt= 10022msec
+    bw (KB  /s):  avg=230.42, stdev=12.21
+randread randread 8
+  read : io=2770.0KB, bw=282433B/s, iops=275, runt= 10043msec
+    bw (KB  /s):  avg=275.63, stdev=19.11
+randwrite randwrite 1
+  write: io=3806.0KB, bw=373416B/s, iops=364, runt= 10437msec
+    bw (KB  /s):  avg=386.26, stdev=124.37
+randwrite randwrite 2
+  write: io=3766.0KB, bw=369456B/s, iops=360, runt= 10438msec
+    bw (KB  /s):  avg=381.84, stdev=125.76
+randwrite randwrite 4
+  write: io=3697.0KB, bw=362374B/s, iops=353, runt= 10447msec
+    bw (KB  /s):  avg=374.16, stdev=122.79
+randwrite randwrite 8
+  write: io=3634.0KB, bw=368291B/s, iops=359, runt= 10104msec
+    bw (KB  /s):  avg=383.89, stdev=128.09
+rw rw 1
+  read : io=16096KB, bw=1609.5KB/s, iops=1609, runt= 10001msec
+    bw (KB  /s):  avg=1609.26, stdev=88.54
+  write: io=16122KB, bw=1612.4KB/s, iops=1612, runt= 10001msec
+    bw (KB  /s):  avg=1609.58, stdev=95.07
+rw rw 2
+  read : io=18612KB, bw=1861.2KB/s, iops=1861, runt= 10001msec
+    bw (KB  /s):  avg=1852.47, stdev=157.10
+  write: io=18660KB, bw=1865.9KB/s, iops=1865, runt= 10001msec
+    bw (KB  /s):  avg=1863.53, stdev=168.66
+rw rw 4
+  read : io=23837KB, bw=2383.5KB/s, iops=2383, runt= 10001msec
+    bw (KB  /s):  avg=2384.74, stdev=239.81
+  write: io=23837KB, bw=2383.5KB/s, iops=2383, runt= 10001msec
+    bw (KB  /s):  avg=2384.16, stdev=222.00
+rw rw 8
+  read : io=26535KB, bw=2650.9KB/s, iops=2650, runt= 10010msec
+    bw (KB  /s):  avg=2657.58, stdev=214.15
+  write: io=26486KB, bw=2645.1KB/s, iops=2645, runt= 10010msec
+    bw (KB  /s):  avg=2653.16, stdev=180.55
+randrw randrw 1
+  read : io=999424B, bw=95923B/s, iops=93, runt= 10419msec
+    bw (KB  /s):  avg=98.37, stdev=25.79
+  write: io=951296B, bw=91303B/s, iops=89, runt= 10419msec
+    bw (KB  /s):  avg=93.79, stdev=28.87
+randrw randrw 2
+  read : io=1182.0KB, bw=117124B/s, iops=114, runt= 10334msec
+    bw (KB  /s):  avg=119.84, stdev=34.88
+  write: io=1095.0KB, bw=108503B/s, iops=105, runt= 10334msec
+    bw (KB  /s):  avg=111.47, stdev=38.05
+randrw randrw 4
+  read : io=1445.0KB, bw=142784B/s, iops=139, runt= 10363msec
+    bw (KB  /s):  avg=146.16, stdev=42.35
+  write: io=1351.0KB, bw=133496B/s, iops=130, runt= 10363msec
+    bw (KB  /s):  avg=136.95, stdev=50.18
+randrw randrw 8
+  read : io=1692.0KB, bw=165768B/s, iops=161, runt= 10452msec
+    bw (KB  /s):  avg=170.58, stdev=49.72
+  write: io=1597.0KB, bw=156460B/s, iops=152, runt= 10452msec
+    bw (KB  /s):  avg=159.89, stdev=45.15
+read read 1
+  read : io=586278KB, bw=58622KB/s, iops=29310, runt= 10001msec
+    bw (KB  /s):  avg=59096.00, stdev=2509.76
+read read 2
+  read : io=1075.4MB, bw=110100KB/s, iops=55049, runt= 10001msec
+    bw (KB  /s):  avg=110023.16, stdev=4080.44
+read read 4
+  read : io=1277.8MB, bw=130824KB/s, iops=65411, runt= 10001msec
+    bw (KB  /s):  avg=130778.53, stdev=2367.26
+read read 8
+  read : io=1281.6MB, bw=131212KB/s, iops=65605, runt= 10001msec
+    bw (KB  /s):  avg=131204.21, stdev=1964.80
+write write 1
+  write: io=555274KB, bw=55522KB/s, iops=27760, runt= 10001msec
+    bw (KB  /s):  avg=55738.74, stdev=1637.62
+write write 2
+  write: io=981.98MB, bw=100542KB/s, iops=50270, runt= 10001msec
+    bw (KB  /s):  avg=100583.68, stdev=2307.33
+write write 4
+  write: io=1205.8MB, bw=123455KB/s, iops=61727, runt= 10001msec
+    bw (KB  /s):  avg=123968.00, stdev=4608.96
+write write 8
+  write: io=1219.1MB, bw=124909KB/s, iops=62454, runt= 10001msec
+    bw (KB  /s):  avg=124813.05, stdev=3866.90
+randread randread 1
+  read : io=2826.0KB, bw=289179B/s, iops=141, runt= 10007msec
+    bw (KB  /s):  avg=283.11, stdev=16.08
+randread randread 2
+  read : io=3506.0KB, bw=358440B/s, iops=175, runt= 10016msec
+    bw (KB  /s):  avg=351.16, stdev=17.79
+randread randread 4
+  read : io=4508.0KB, bw=460238B/s, iops=224, runt= 10030msec
+    bw (KB  /s):  avg=450.95, stdev=30.29
+randread randread 8
+  read : io=5564.0KB, bw=568446B/s, iops=277, runt= 10023msec
+    bw (KB  /s):  avg=553.74, stdev=30.87
+randwrite randwrite 1
+  write: io=7158.0KB, bw=729622B/s, iops=356, runt= 10046msec
+    bw (KB  /s):  avg=759.67, stdev=249.94
+randwrite randwrite 2
+  write: io=7508.0KB, bw=768434B/s, iops=375, runt= 10005msec
+    bw (KB  /s):  avg=797.00, stdev=300.72
+randwrite randwrite 4
+  write: io=7464.0KB, bw=763168B/s, iops=372, runt= 10015msec
+    bw (KB  /s):  avg=794.44, stdev=302.62
+randwrite randwrite 8
+  write: io=7490.0KB, bw=729758B/s, iops=356, runt= 10510msec
+    bw (KB  /s):  avg=757.74, stdev=250.08
+rw rw 1
+  read : io=29940KB, bw=2993.8KB/s, iops=1496, runt= 10001msec
+    bw (KB  /s):  avg=2987.32, stdev=154.58
+  write: io=29958KB, bw=2995.6KB/s, iops=1497, runt= 10001msec
+    bw (KB  /s):  avg=2984.84, stdev=138.97
+rw rw 2
+  read : io=27300KB, bw=2728.1KB/s, iops=1364, runt= 10007msec
+    bw (KB  /s):  avg=2749.05, stdev=269.68
+  write: io=27340KB, bw=2732.9KB/s, iops=1366, runt= 10007msec
+    bw (KB  /s):  avg=2749.89, stdev=263.98
+rw rw 4
+  read : io=36888KB, bw=3686.1KB/s, iops=1843, runt= 10005msec
+    bw (KB  /s):  avg=3699.47, stdev=389.89
+  write: io=37036KB, bw=3701.8KB/s, iops=1850, runt= 10005msec
+    bw (KB  /s):  avg=3722.16, stdev=406.17
+rw rw 8
+  read : io=43806KB, bw=4380.2KB/s, iops=2190, runt= 10001msec
+    bw (KB  /s):  avg=4361.95, stdev=371.07
+  write: io=43692KB, bw=4368.8KB/s, iops=2184, runt= 10001msec
+    bw (KB  /s):  avg=4361.95, stdev=356.50
+randrw randrw 1
+  read : io=1912.0KB, bw=188023B/s, iops=91, runt= 10413msec
+    bw (KB  /s):  avg=192.79, stdev=51.27
+  write: io=1826.0KB, bw=179566B/s, iops=87, runt= 10413msec
+    bw (KB  /s):  avg=184.42, stdev=56.50
+randrw randrw 2
+  read : io=2344.0KB, bw=230971B/s, iops=112, runt= 10392msec
+    bw (KB  /s):  avg=236.84, stdev=61.24
+  write: io=2178.0KB, bw=214614B/s, iops=104, runt= 10392msec
+    bw (KB  /s):  avg=221.37, stdev=69.55
+randrw randrw 4
+  read : io=2858.0KB, bw=287315B/s, iops=140, runt= 10186msec
+    bw (KB  /s):  avg=290.26, stdev=89.30
+  write: io=2646.0KB, bw=266002B/s, iops=129, runt= 10186msec
+    bw (KB  /s):  avg=269.37, stdev=94.88
+randrw randrw 8
+  read : io=3300.0KB, bw=336372B/s, iops=164, runt= 10046msec
+    bw (KB  /s):  avg=339.24, stdev=91.05
+  write: io=3068.0KB, bw=312724B/s, iops=152, runt= 10046msec
+    bw (KB  /s):  avg=316.35, stdev=101.83
+read read 1
+  read : io=1039.7MB, bw=106458KB/s, iops=26614, runt= 10000msec
+    bw (KB  /s):  avg=106426.53, stdev=2357.61
+read read 2
+  read : io=1734.1MB, bw=177553KB/s, iops=44388, runt= 10001msec
+    bw (KB  /s):  avg=177425.68, stdev=3628.64
+read read 4
+  read : io=1755.5MB, bw=179741KB/s, iops=44935, runt= 10001msec
+    bw (KB  /s):  avg=179142.32, stdev=9371.46
+read read 8
+  read : io=1754.2MB, bw=179604KB/s, iops=44901, runt= 10001msec
+    bw (KB  /s):  avg=179001.68, stdev=8410.42
+write write 1
+  write: io=993292KB, bw=99319KB/s, iops=24829, runt= 10001msec
+    bw (KB  /s):  avg=99661.89, stdev=2500.58
+write write 2
+  write: io=1645.4MB, bw=168467KB/s, iops=42116, runt= 10001msec
+    bw (KB  /s):  avg=169190.74, stdev=3553.12
+write write 4
+  write: io=1200.6MB, bw=122921KB/s, iops=30730, runt= 10001msec
+    bw (KB  /s):  avg=122606.21, stdev=12168.43
+write write 8
+  write: io=1171.8MB, bw=119976KB/s, iops=29994, runt= 10001msec
+    bw (KB  /s):  avg=120519.95, stdev=18710.31
+randread randread 1
+  read : io=5688.0KB, bw=582218B/s, iops=142, runt= 10004msec
+    bw (KB  /s):  avg=567.68, stdev=29.36
+randread randread 2
+  read : io=6948.0KB, bw=710125B/s, iops=173, runt= 10019msec
+    bw (KB  /s):  avg=692.05, stdev=26.14
+randread randread 4
+  read : io=9168.0KB, bw=936648B/s, iops=228, runt= 10023msec
+    bw (KB  /s):  avg=918.79, stdev=44.55
+randread randread 8
+  read : io=11248KB, bw=1121.2KB/s, iops=280, runt= 10033msec
+    bw (KB  /s):  avg=1118.63, stdev=68.31
+randwrite randwrite 1
+  write: io=14780KB, bw=1420.7KB/s, iops=355, runt= 10408msec
+    bw (KB  /s):  avg=1498.58, stdev=483.38
+randwrite randwrite 2
+  write: io=14660KB, bw=1407.5KB/s, iops=351, runt= 10419msec
+    bw (KB  /s):  avg=1487.42, stdev=491.56
+randwrite randwrite 4
+  write: io=14760KB, bw=1410.2KB/s, iops=352, runt= 10468msec
+    bw (KB  /s):  avg=1492.21, stdev=495.44
+randwrite randwrite 8
+  write: io=14764KB, bw=1473.2KB/s, iops=368, runt= 10022msec
+    bw (KB  /s):  avg=1523.41, stdev=541.09
+rw rw 1
+  read : io=42764KB, bw=4274.8KB/s, iops=1068, runt= 10004msec
+    bw (KB  /s):  avg=4290.95, stdev=434.79
+  write: io=42488KB, bw=4247.2KB/s, iops=1061, runt= 10004msec
+    bw (KB  /s):  avg=4267.42, stdev=389.84
+rw rw 2
+  read : io=39348KB, bw=3934.2KB/s, iops=983, runt= 10002msec
+    bw (KB  /s):  avg=3965.00, stdev=457.11
+  write: io=39264KB, bw=3925.7KB/s, iops=981, runt= 10002msec
+    bw (KB  /s):  avg=3960.05, stdev=273.98
+rw rw 4
+  read : io=50108KB, bw=5006.4KB/s, iops=1251, runt= 10009msec
+    bw (KB  /s):  avg=5082.05, stdev=523.62
+  write: io=50048KB, bw=5000.4KB/s, iops=1250, runt= 10009msec
+    bw (KB  /s):  avg=5067.42, stdev=548.81
+rw rw 8
+  read : io=64500KB, bw=6434.6KB/s, iops=1608, runt= 10024msec
+    bw (KB  /s):  avg=6511.58, stdev=670.05
+  write: io=64628KB, bw=6447.4KB/s, iops=1611, runt= 10024msec
+    bw (KB  /s):  avg=6521.05, stdev=773.93
+randrw randrw 1
+  read : io=3712.0KB, bw=379804B/s, iops=92, runt= 10008msec
+    bw (KB  /s):  avg=394.44, stdev=113.29
+  write: io=3512.0KB, bw=359341B/s, iops=87, runt= 10008msec
+    bw (KB  /s):  avg=371.44, stdev=109.23
+randrw randrw 2
+  read : io=4704.0KB, bw=462807B/s, iops=112, runt= 10408msec
+    bw (KB  /s):  avg=476.42, stdev=132.79
+  write: io=4372.0KB, bw=430142B/s, iops=105, runt= 10408msec
+    bw (KB  /s):  avg=444.84, stdev=153.39
+randrw randrw 4
+  read : io=5760.0KB, bw=568943B/s, iops=138, runt= 10367msec
+    bw (KB  /s):  avg=583.47, stdev=165.02
+  write: io=5384.0KB, bw=531804B/s, iops=129, runt= 10367msec
+    bw (KB  /s):  avg=547.53, stdev=188.66
+randrw randrw 8
+  read : io=6528.0KB, bw=639131B/s, iops=156, runt= 10459msec
+    bw (KB  /s):  avg=658.68, stdev=190.74
+  write: io=6064.0KB, bw=593702B/s, iops=144, runt= 10459msec
+    bw (KB  /s):  avg=611.74, stdev=196.48
+read read 1
+  read : io=1758.6MB, bw=180059KB/s, iops=2813, runt= 10001msec
+    bw (KB  /s):  avg=179590.74, stdev=6901.78
+read read 2
+  read : io=1768.6MB, bw=181083KB/s, iops=2829, runt= 10001msec
+    bw (KB  /s):  avg=180729.26, stdev=8423.13
+read read 4
+  read : io=1767.7MB, bw=180969KB/s, iops=2827, runt= 10002msec
+    bw (KB  /s):  avg=180608.00, stdev=6751.18
+read read 8
+  read : io=1767.4MB, bw=180919KB/s, iops=2826, runt= 10003msec
+    bw (KB  /s):  avg=180560.84, stdev=7827.47
+write write 1
+  write: io=1753.0MB, bw=179489KB/s, iops=2804, runt= 10001msec
+    bw (KB  /s):  avg=178991.16, stdev=7526.55
+write write 2
+  write: io=1751.6MB, bw=179336KB/s, iops=2802, runt= 10001msec
+    bw (KB  /s):  avg=179954.53, stdev=9411.16
+write write 4
+  write: io=1725.0MB, bw=176605KB/s, iops=2759, runt= 10002msec
+    bw (KB  /s):  avg=177172.21, stdev=15030.38
+write write 8
+  write: io=1754.0MB, bw=179556KB/s, iops=2805, runt= 10003msec
+    bw (KB  /s):  avg=180170.11, stdev=8139.53
+randread randread 1
+  read : io=85440KB, bw=8537.2KB/s, iops=133, runt= 10008msec
+    bw (KB  /s):  avg=8521.89, stdev=373.73
+randread randread 2
+  read : io=102400KB, bw=10229KB/s, iops=159, runt= 10011msec
+    bw (KB  /s):  avg=10214.37, stdev=643.09
+randread randread 4
+  read : io=135296KB, bw=13501KB/s, iops=210, runt= 10021msec
+    bw (KB  /s):  avg=13534.47, stdev=734.18
+randread randread 8
+  read : io=158016KB, bw=15745KB/s, iops=246, runt= 10036msec
+    bw (KB  /s):  avg=15754.63, stdev=815.67
+randwrite randwrite 1
+  write: io=208064KB, bw=19709KB/s, iops=307, runt= 10557msec
+    bw (KB  /s):  avg=21188.84, stdev=7912.60
+randwrite randwrite 2
+  write: io=209216KB, bw=19737KB/s, iops=308, runt= 10600msec
+    bw (KB  /s):  avg=21267.42, stdev=7788.62
+randwrite randwrite 4
+  write: io=208448KB, bw=19635KB/s, iops=306, runt= 10616msec
+    bw (KB  /s):  avg=21131.84, stdev=8168.40
+randwrite randwrite 8
+  write: io=207296KB, bw=19653KB/s, iops=307, runt= 10548msec
+    bw (KB  /s):  avg=20970.21, stdev=7682.25
+rw rw 1
+  read : io=120960KB, bw=11910KB/s, iops=186, runt= 10156msec
+    bw (KB  /s):  avg=11982.55, stdev=2899.46
+  write: io=116160KB, bw=11438KB/s, iops=178, runt= 10156msec
+    bw (KB  /s):  avg=11493.95, stdev=2180.85
+rw rw 2
+  read : io=117760KB, bw=11770KB/s, iops=183, runt= 10005msec
+    bw (KB  /s):  avg=11761.68, stdev=3230.51
+  write: io=112768KB, bw=11271KB/s, iops=176, runt= 10005msec
+    bw (KB  /s):  avg=11104.11, stdev=2904.21
+rw rw 4
+  read : io=167232KB, bw=16419KB/s, iops=256, runt= 10185msec
+    bw (KB  /s):  avg=16532.30, stdev=3925.60
+  write: io=162240KB, bw=15929KB/s, iops=248, runt= 10185msec
+    bw (KB  /s):  avg=16027.15, stdev=3610.98
+rw rw 8
+  read : io=240128KB, bw=23649KB/s, iops=369, runt= 10154msec
+    bw (KB  /s):  avg=24714.89, stdev=4741.71
+  write: io=237504KB, bw=23390KB/s, iops=365, runt= 10154msec
+    bw (KB  /s):  avg=24209.11, stdev=3336.33
+randrw randrw 1
+  read : io=57728KB, bw=5506.4KB/s, iops=86, runt= 10484msec
+    bw (KB  /s):  avg=5878.53, stdev=1766.97
+  write: io=54080KB, bw=5158.4KB/s, iops=80, runt= 10484msec
+    bw (KB  /s):  avg=5471.05, stdev=1609.65
+randrw randrw 2
+  read : io=70336KB, bw=6685.1KB/s, iops=104, runt= 10520msec
+    bw (KB  /s):  avg=7130.79, stdev=2060.21
+  write: io=65344KB, bw=6211.5KB/s, iops=97, runt= 10520msec
+    bw (KB  /s):  avg=6635.16, stdev=2163.57
+randrw randrw 4
+  read : io=81856KB, bw=8018.3KB/s, iops=125, runt= 10209msec
+    bw (KB  /s):  avg=8401.79, stdev=3019.31
+  write: io=75520KB, bw=7397.5KB/s, iops=115, runt= 10209msec
+    bw (KB  /s):  avg=7730.63, stdev=2932.61
+randrw randrw 8
+  read : io=97792KB, bw=9279.6KB/s, iops=144, runt= 10539msec
+    bw (KB  /s):  avg=9814.58, stdev=2811.38
+  write: io=91008KB, bw=8635.4KB/s, iops=134, runt= 10539msec
+    bw (KB  /s):  avg=9174.63, stdev=3144.35
+read read 1
+  read : io=1769.0MB, bw=181109KB/s, iops=353, runt= 10002msec
+    bw (KB  /s):  avg=180874.37, stdev=7015.16
+read read 2
+  read : io=1739.6MB, bw=178036KB/s, iops=347, runt= 10005msec
+    bw (KB  /s):  avg=177681.79, stdev=15136.98
+read read 4
+  read : io=1764.6MB, bw=180486KB/s, iops=352, runt= 10011msec
+    bw (KB  /s):  avg=180559.11, stdev=7269.88
+read read 8
+  read : io=1773.0MB, bw=181175KB/s, iops=353, runt= 10021msec
+    bw (KB  /s):  avg=181107.47, stdev=6801.63
+write write 1
+  write: io=1749.6MB, bw=179131KB/s, iops=349, runt= 10001msec
+    bw (KB  /s):  avg=179853.58, stdev=10479.53
+write write 2
+  write: io=1754.6MB, bw=179589KB/s, iops=350, runt= 10004msec
+    bw (KB  /s):  avg=179325.37, stdev=12586.27
+write write 4
+  write: io=1737.6MB, bw=177707KB/s, iops=347, runt= 10012msec
+    bw (KB  /s):  avg=180528.89, stdev=9882.23
+write write 8
+  write: io=1753.6MB, bw=179200KB/s, iops=350, runt= 10020msec
+    bw (KB  /s):  avg=178743.16, stdev=11670.73
+randread randread 1
+  read : io=513024KB, bw=51251KB/s, iops=100, runt= 10010msec
+    bw (KB  /s):  avg=51173.32, stdev=1670.60
+randread randread 2
+  read : io=567296KB, bw=56679KB/s, iops=110, runt= 10009msec
+    bw (KB  /s):  avg=56882.21, stdev=2148.52
+randread randread 4
+  read : io=638464KB, bw=63655KB/s, iops=124, runt= 10030msec
+    bw (KB  /s):  avg=63548.11, stdev=3458.70
+randread randread 8
+  read : io=711168KB, bw=70798KB/s, iops=138, runt= 10045msec
+    bw (KB  /s):  avg=70656.26, stdev=5957.41
+randwrite randwrite 1
+  write: io=899584KB, bw=82942KB/s, iops=161, runt= 10846msec
+    bw (KB  /s):  avg=94379.72, stdev=45656.70
+randwrite randwrite 2
+  write: io=896000KB, bw=82119KB/s, iops=160, runt= 10911msec
+    bw (KB  /s):  avg=94480.33, stdev=45975.66
+randwrite randwrite 4
+  write: io=881664KB, bw=84233KB/s, iops=164, runt= 10467msec
+    bw (KB  /s):  avg=96891.12, stdev=47428.74
+randwrite randwrite 8
+  write: io=909312KB, bw=83301KB/s, iops=162, runt= 10916msec
+    bw (KB  /s):  avg=95289.22, stdev=45765.80
+rw rw 1
+  read : io=461824KB, bw=44342KB/s, iops=86, runt= 10415msec
+    bw (KB  /s):  avg=46817.58, stdev=16612.13
+  write: io=432128KB, bw=41491KB/s, iops=81, runt= 10415msec
+    bw (KB  /s):  avg=43539.00, stdev=11821.34
+rw rw 2
+  read : io=539136KB, bw=51800KB/s, iops=101, runt= 10408msec
+    bw (KB  /s):  avg=54709.79, stdev=20028.39
+  write: io=504832KB, bw=48504KB/s, iops=94, runt= 10408msec
+    bw (KB  /s):  avg=51306.37, stdev=17454.83
+rw rw 4
+  read : io=546816KB, bw=52483KB/s, iops=102, runt= 10419msec
+    bw (KB  /s):  avg=55035.79, stdev=19429.34
+  write: io=509440KB, bw=48895KB/s, iops=95, runt= 10419msec
+    bw (KB  /s):  avg=51446.21, stdev=17392.34
+rw rw 8
+  read : io=551936KB, bw=52852KB/s, iops=103, runt= 10443msec
+    bw (KB  /s):  avg=55478.95, stdev=18526.95
+  write: io=516096KB, bw=49420KB/s, iops=96, runt= 10443msec
+    bw (KB  /s):  avg=51934.58, stdev=16116.22
+randrw randrw 1
+  read : io=331264KB, bw=31105KB/s, iops=60, runt= 10650msec
+    bw (KB  /s):  avg=33724.95, stdev=11306.38
+  write: io=287744KB, bw=27018KB/s, iops=52, runt= 10650msec
+    bw (KB  /s):  avg=29314.84, stdev=10778.05
+randrw randrw 2
+  read : io=374272KB, bw=34865KB/s, iops=68, runt= 10735msec
+    bw (KB  /s):  avg=37880.00, stdev=14085.13
+  write: io=339456KB, bw=31621KB/s, iops=61, runt= 10735msec
+    bw (KB  /s):  avg=34373.47, stdev=12836.42
+randrw randrw 4
+  read : io=407040KB, bw=37727KB/s, iops=73, runt= 10789msec
+    bw (KB  /s):  avg=41205.84, stdev=15116.50
+  write: io=370176KB, bw=34311KB/s, iops=67, runt= 10789msec
+    bw (KB  /s):  avg=37887.16, stdev=15059.69
+randrw randrw 8
+  read : io=444416KB, bw=41002KB/s, iops=80, runt= 10839msec
+    bw (KB  /s):  avg=44865.84, stdev=17708.53
+  write: io=413696KB, bw=38167KB/s, iops=74, runt= 10839msec
+    bw (KB  /s):  avg=41949.11, stdev=16045.60

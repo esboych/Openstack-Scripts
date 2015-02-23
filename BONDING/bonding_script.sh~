@@ -1,0 +1,22 @@
+#!/bin/bash
+#Globals
+BMODE=3  #bonding mode
+
+echo "Bonding mode is $BMODE".
+
+#reload bonding module
+modprobe -r bonding
+modprobe bonding mode=$BMODE miimon=100 # load bonding module
+
+# prepare interfaces
+ifconfig br-eth0 down
+ifconfig br-eth1 down
+
+ifconfig bond0 hw ether 00:11:22:33:44:54
+ifconfig bond0 192.168.55.54 up>
+
+ifenslave bond0 br-eth0
+ifenslave bond0 br-eth1
+
+ifconfig br-eth0 up
+ifconfig br-eth1 up
