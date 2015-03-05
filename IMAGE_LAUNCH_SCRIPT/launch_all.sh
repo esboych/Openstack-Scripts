@@ -1,17 +1,17 @@
-!/bin/bash
-
-# This script is supposed to run in Neutron network with net04 and net04_ext networks present
+#!/bin/bash
 
 #env variables
 . openrc
 
 # assign node names authomatically
-echo "Looking for supervisors.."
+echo "Looking for hypervisors.."
 
-node1=$(nova hypervisor-list | awk "/1/ "'{print $4}' | sed s/.lst.local//g)
+#node1=$(nova hypervisor-list | awk "/ 1 / "'{print $4}' | sed s/.lst.local//g)
+node1=$(nova hypervisor-list | awk "/ 1 / "'{print $4}')  # for Fue l5.1
 echo "1st hypervisor:" $node1
 
-node2=$(nova hypervisor-list | awk "/2/ "'{print $4}' | sed s/.lst.local//g)
+#node2=$(nova hypervisor-list | awk "/ 2 / "'{print $4}' | sed s/.lst.local//g)
+node2=$(nova hypervisor-list | awk "/ 2 / "'{print $4}')
 echo "2nd hypervisor:" $node2
 
 #verbose

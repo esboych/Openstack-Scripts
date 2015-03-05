@@ -3,6 +3,9 @@
 #verbose
 set -x
 
+ifconfig br-mgmt 0             # clean previous
+ovs-vsctl del-br br-ovs-bond0  # OVS bonding stuff
+
 #Globals
 BMODE=4  #bonding mode
 
@@ -27,4 +30,4 @@ ifconfig eth1 up
 
 #vlan
 vconfig add bond0 201
-ifconfig bond0.201 192.168.55.54/24 up
+ifconfig bond0.201 192.168.0.4/24 up
