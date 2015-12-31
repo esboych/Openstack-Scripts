@@ -32,16 +32,17 @@ for f in ${files_arr[*]}; do
 fi
 done
 
-echo "All  needed files found"
+echo "All needed files found!"
 
 #check trusty image
 trusty_image_id=$(glance image-list | awk '/trusty/ {print $2}')
 
 if [ -z $trusty_image_id ];
 then
-   echo "trusty image not found!"
+   echo "trusty image not found! Creating.."
    glance image-create --name trusty-server-cloudimg-amd64-disk1  --disk-format raw --container-format bare --file trusty-server-cloudimg-amd64-disk1.img --progress
 else
+   trusty_image_id=$(glance image-list | awk '/trusty/ {print $2}')
    echo "trusty image found. Id is: $trusty_image_id"
 fi
 
