@@ -109,7 +109,7 @@ else
     float_net="nova"
 fi
 
-echo "fixed: $fixed_net"
+echo "fixed: $fixed_net_id"
 echo "float: $float_net"
 
 # release ip addresses
