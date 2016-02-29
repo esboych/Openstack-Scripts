@@ -41,7 +41,7 @@ date
 #check SSH
 #NODE_IP=${CONTROLLER_IP_ARRAY[0]}
 #NODE_IP=172.16.53.68
-NODE_IP=10.20.0.3
+NODE_IP=10.20.0.4
 echo "Run Shaker on Controller"
 echo "Controller IP: $NODE_IP"
 
@@ -67,7 +67,11 @@ REPORTS_DIR=`mktemp -d`
 # get br-ex IP address to use with --server-endpoint Shaker's option
 SERVER_ENDPOINT=`ifconfig | grep "br-ex" -A 3 | grep "inet addr" | awk '{print $2}' | sed 's/addr://g'`
 SERVER_PORT=18000
+echo "SERVER_ENDPOINT: $SERVER_ENDPOINT"
 
+#Fill in sources.list
+printf 'deb http://ua.archive.ubuntu.com/ubuntu/ trusty universe' > /etc/apt/sources.list
+apt-get update
 
 # Prepare environment
 source /root/openrc
@@ -78,6 +82,9 @@ iptables -I INPUT -s 10.20.0.0/16 -j ACCEPT
 iptables -I INPUT -s 10.0.0.0/16 -j ACCEPT
 iptables -I INPUT -s 172.16.0.0/16 -j ACCEPT
 iptables -I INPUT -s 192.168.0.0/16 -j ACCEPT
+
+#edit v2.py file in order to use keystone v2 api
+sed -i s/\'\\/tokens/\'\\/v2.0\\/tokens/ /usr/lib/python2.7/dist-packages/keystoneclient/auth/identity/v2.py
 
 shaker-image-builder --debug
 
