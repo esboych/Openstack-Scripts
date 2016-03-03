@@ -45,7 +45,8 @@ do
 wget -nc https://raw.githubusercontent.com/esboych/Openstack-Scripts/master/SHAKER_LAUNCH_AUTOMATION/traffic.py
 
 #copy it to Controller node
-scp traffic.py root@10.20.0.7:/root/traffic.py
+#scp traffic.py root@10.20.0.7:/root/traffic.py
+scp traffic.py root@$CONTROLLER_ADMIN_IP:/root/traffic.py
 
 
 
